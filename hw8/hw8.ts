@@ -13,6 +13,6 @@ function myFind<T>(array: T[], value: T, callback: (item: T) => boolean): [T | n
   console.log(foundNumber); 
   console.log(originalArray); 
   
-  const [notFoundNumber, originalArray2] = myFind(numbers1, 6, (item) => item === 106);
+  const [notFoundNumber, originalArray2] = myFind(numbers1, 6, (item) => item === 10);
   console.log(notFoundNumber); 
   console.log(originalArray2); 
