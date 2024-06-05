@@ -8,9 +8,9 @@ function myFindIndex(array, value, callback) {
     return [-1, array];
 }
 const numbers3 = [1, 2, 3, 4, 5];
-const [foundIndex, originalArray5] = myFindIndex(numbers, 3, (item) => item === 3);
+const [foundIndex, originalArray5] = myFindIndex(numbers, 3, (item) => item === 1);
 console.log(foundIndex);
-console.log(originalArray);
-const [notFoundIndex, originalArray6] = myFindIndex(numbers, 6, (item) => item === 6);
+console.log(originalArray5);
+const [notFoundIndex, originalArray6] = myFindIndex(numbers, 6, (item) => item === 10);
 console.log(notFoundIndex);
-console.log(originalArray2);
+console.log(originalArray6);
