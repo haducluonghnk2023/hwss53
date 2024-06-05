@@ -10,10 +10,10 @@ function myFilter<T>(array: T[], value: T, callback: (item: T) => boolean): [T[]
   
   const numbers2 = [1, 2, 3, 4, 5];
   
-  const [foundNumbers, originalArray1] = myFilter(numbers2, 3, (item) => item === 3);
+  const [foundNumbers, originalArray1] = myFilter(numbers2, 3, (item) => item === 1);
   console.log(foundNumbers);
   console.log(originalArray); 
   
-  const [notFoundNumbers, originalArray3] = myFilter(numbers2, 6, (item) => item === 6);
+  const [notFoundNumbers, originalArray3] = myFilter(numbers2, 6, (item) => item === 10);
   console.log(notFoundNumbers); 
   console.log(originalArray2);
